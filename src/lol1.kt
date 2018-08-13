@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main(args: Array<String>) { 
     println("minInt: ${Int.MIN_VALUE}"+" , maxInt: ${Int.MAX_VALUE}")
     println("minLong: ${Long.MIN_VALUE}"+" , maxLong: ${Long.MAX_VALUE}")
     println("minShort: ${Short.MIN_VALUE}"+" , maxShort: ${Short.MAX_VALUE}")
