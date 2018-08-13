@@ -1,22 +1,8 @@
 fun main(args: Array<String>) {
-    val minInt : Int = Int.MIN_VALUE
-    val maxInt : Int = Int.MAX_VALUE
-    val minLong : Long = Long.MIN_VALUE
-    val maxLong : Long = Long.MAX_VALUE
-    val minShort : Short = Short.MIN_VALUE
-    val maxShort : Short = Short.MAX_VALUE
-    val minFloat : Float = Float.MIN_VALUE
-    val maxFloat : Float = Float.MAX_VALUE
-    val minDouble : Double = Double.MIN_VALUE
-    val maxDouble : Double = Double.MAX_VALUE
-    val minByte : Byte = Byte.MIN_VALUE
-    val maxByte : Byte = Byte.MAX_VALUE
-
-
-    println("minInt: "+minInt+", maxInt: "+maxInt)
-    println("minLong: "+minLong+", maxLong: "+maxLong)
-    println("minShort: "+minShort+", maxShort: "+maxShort)
-    println("minFloat: "+minFloat+", maxFloat: "+maxFloat)
-    println("minDouble: "+minDouble+", maxDouble: "+maxDouble)
-    println("minByte: "+minByte+", maxByte: "+maxByte)
+    println("minInt: "+Int.MIN_VALUE+", maxInt: "+Int.MAX_VALUE)
+    println("minLong: "+Long.MIN_VALUE+", maxLong: "+Long.MAX_VALUE)
+    println("minShort: "+Short.MIN_VALUE+", maxShort: "+Short.MAX_VALUE)
+    println("minFloat: "+Float.MIN_VALUE+", maxFloat: "+Float.MAX_VALUE)
+    println("minDouble: "+Double.MIN_VALUE+", maxDouble: "+Double.MAX_VALUE)
+    println("minByte: "+Byte.MIN_VALUE+", maxByte: "+Byte.MAX_VALUE)
 }
