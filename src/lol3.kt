@@ -18,11 +18,15 @@ fun lol(ret : Char ) {
         } else {
             if (VALUTE == "R" || VALUTE == "r") {
                 println("Введите сумму ,которую желаете перевести. (в рублях)")
+                println("Сумма не должна быть меньше 67 копеек")
                 val vod: String? = readLine()
-                Perevod = vod!!.toDouble() * R
+                if (vod!!.toFloat() >= 0.67) {
+                Perevod = vod.toDouble() * R
                 println("Это " + Perevod + " ДОЛЛАРОВ")
-            } else {
-                println("Ошибка.Попробуйте ещё раз.")
+
+                } else {
+                    println("Ошибка.Попробуйте ещё раз.")
+                }
             }
         }
         println("Повторить? ДА(Y/y) НЕТ(N/n)")
