@@ -12,30 +12,14 @@ fun ChessBlackOrWhite(Symb: String, Number: Int) {
     var go = true
     var x = 0
     if (Number in 1..8) when (Symb) {
-        "a", "A" -> {
-            x = 1
-        }
-        "b", "B" -> {
-            x = 2
-        }
-        "c", "C" -> {
-            x = 3
-        }
-        "d", "D" -> {
-            x = 4
-        }
-        "e", "E" -> {
-            x = 5
-        }
-        "f", "F" -> {
-            x = 6
-        }
-        "g", "G" -> {
-            x = 7
-        }
-        "h", "H" -> {
-            x = 8
-        }
+        "a", "A" -> x = 1
+        "b", "B" -> x = 2
+        "c", "C" -> x = 3
+        "d", "D" -> x = 4
+        "e", "E" -> x = 5
+        "f", "F" -> x = 6
+        "g", "G" -> x = 7
+        "h", "H" -> x = 8
         else -> {
             println("Error.\n You entered wrong letter. \n Please repeat.")
             go = false
